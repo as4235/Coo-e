@@ -1,0 +1,198 @@
+.bg {
+  object-fit: cover;
+  position: fixed;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: -1;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.input {
+  margin: auto;
+  width: 50%;
+  padding-top: 150px;
+  padding-bottom: 15px;
+}
+
+.info {
+  font-size: 1.3rem;
+  color: antiquewhite;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.userinput {
+  width: 60%;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.paginationBttns {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.paginationBttnsteeup {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: white;
+  font-size: 12px;
+}
+
+.paginationBttnsteeup a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: grey;
+}
+
+.paginationBttnsteeup a:hover {
+  background-color: black;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: grey;
+}
+
+.paginationBttns a:hover {
+  background-color: black;
+}
+
+.paginationActive a {
+  background-color: black;
+}
+
+.popupbox {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  max-height: 700px;
+  min-height: 200px;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: white;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.closeicon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(24% + 60px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.modal {
+  position: relative;
+  width: 25%;
+  margin: 0 auto;
+  height: 20%;
+  margin-top: calc(100vh - 85vh - -200px);
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.head {
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+}
+
+.username {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.row {
+  margin: 10px;
+}
+
+.col {
+  text-align: left;
+  word-break: break-all;
+}
+
+.delete {
+  text-align: right;
+}
+
+.search :focus,
+.search :active {
+  color: white;
+  background-color: rgb(46, 45, 45);
+}
+
+.first {
+  align-items: center;
+  text-align: center;
+}
+
+.teeupbttn {
+  text-align: center;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.dum {
+  color: aqua;
+}
